@@ -41,12 +41,12 @@ Moreover, CAPIFY exhibits robustness and counterfactual fairness attributes, mak
 
 <div style="”width:100%”">
 
-<img src="plots/accs.svg" width="45%" align="center"/>
-<img src="plots/mccs.svg" width="45%" align="center"/>
-<img src="plots/uai_05.svg" width="45%" align="center"/>
-<img src="plots/uai_01.svg" width="45%" align="center"/>
-<img src="plots/uai_cf.svg" width="45%" align="center"/>
-<img src="plots/uai_ar_05.svg" width="45%" align="center"/>
-<img src="plots/uai_ar_01.svg" width="45%" align="center"/>
+<img src="plots/accs.svg" width="100%" align="center"/>
+<img src="plots/mccs.svg" width="100%" align="center"/>
+<img src="plots/uai_05.svg" width="100%" align="center"/>
+<img src="plots/uai_01.svg" width="100%" align="center"/>
+<img src="plots/uai_cf.svg" width="100%" align="center"/>
+<img src="plots/uai_ar_05.svg" width="100%" align="center"/>
+<img src="plots/uai_ar_01.svg" width="100%" align="center"/>
 
 </div>
