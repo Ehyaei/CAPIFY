@@ -37,3 +37,16 @@ We performed our experiment using 100 different seeds.  Below illustrate that th
 However, the CAL method shows unsatisfactory accuracy due to the issues reported previously.
 Compared to ERM, CAPIFY shows slightly lower accuracy, a trade-off noted in multiple studies. Notably, real-world data indicates a greater reduction in unfairness than in accuracy.
 Moreover, CAPIFY exhibits robustness and counterfactual fairness attributes, making it the favored model when assessing both concepts.
+
+
+<div style="”width:100%”">
+
+<img src="plots/accs.svg" width="45%" align="center"/>
+<img src="plots/mccs.svg" width="45%" align="center"/>
+<img src="plots/uai_05.svg" width="45%" align="center"/>
+<img src="plots/uai_01.svg" width="45%" align="center"/>
+<img src="plots/uai_cf.svg" width="45%" align="center"/>
+<img src="plots/uai_ar_05.svg" width="45%" align="center"/>
+<img src="plots/uai_ar_01.svg" width="45%" align="center"/>
+
+</div>
