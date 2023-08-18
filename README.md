@@ -29,7 +29,18 @@ first delete the `models/` and `scms/` folders, and then execute `run_benchmarks
 
 ## Numerical Study
 
-In this study, we empirically validate the theoretical propositions presented in the paper. We assess the performance of the CAPIFY and CAL training methods in comparison to conventional empirical risk minimization (ERM) and other pertinent techniques, including Adversarial Learning (AL), Locally Linear Regularizer (LLR) training, and Ross method. Our experimentation involves real datasets, specifically Adult and COMPAS, which are pre-processed according to. Furthermore, we consider three synthetic datasets related to Linear (LIN), Non-linear (NLM), and independent futures (IMF) SCMs, along with the semi-synthetic Loan dataset.
+In this study, we empirically validate the theoretical propositions presented in the paper. We assess the performance of the CAPIFY and CAL training methods in comparison to
+
+- empirical risk minimization (ERM)
+- Adversarial Learning (AL),
+- Locally Linear Regularizer (LLR) training,
+- Ross method.
+
+Our experimentation involves real datasets, specifically Adult and COMPAS, which are pre-processed according to. Furthermore, we consider three synthetic datasets related to 
+- Linear (LIN),
+- Non-linear (NLM),
+- Independent futures (IMF) SCMs, and
+-  semi-synthetic Loan dataset.
 
 We utilize a multi-layer perceptron with three hidden layers, each comprising 100 nodes, for the COMPAS, Adult, NLM, and Loan datasets. Logistic regression is employed for the remaining datasets. To evaluate classifier performance, we measure accuracy and Matthews correlation coefficient (MCC). Furthermore, we quantify CAPI fairness using UAI across various $\Delta$ values, including 0.05, 0.01, and 0.0. Additionally, we compute UAI for non-sensitive scenarios, employing $\Delta$ values of 0.05 and 0.01 to represent the non-robust data percentage. 
 
